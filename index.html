@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="age-calculator-app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputContent">
+        <p>DATE</p>
+        <p>MONTH</p>
+        <p>YEAR</p>
+      </div>
+      <input id="dateInput" type="textbox" placeholder="DD" />
+      <input id="monthInput" type="textbox" placeholder="MM" />
+      <input id="yearInput" type="textbox" placeholder="YYYY" />
+      <!-- <pre class="errorText">
+        
+      </pre> -->
+      <div class="horizontal-row-and-button">
+        <hr class="line" />
+        <button onclick="calculateAge()">
+          <img src="calculator.png" class="cal-button" />
+        </button>
+      </div>
+      <div class="display">
+        <p class="years"></p>
+        <p class="textContent">years</p>
+        <p class="months"></p>
+        <p class="textContent">months</p>
+        <p class="days"></p>
+        <p class="textContent">days</p>
+      </div>
+    </div>
+  </body>
+</html>

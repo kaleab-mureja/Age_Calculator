@@ -1,0 +1,89 @@
+body{
+  font-family: Poppins;
+  background-color: hwb(0 94% 6%);
+  display: flex;
+  padding-top: 150px;
+  margin: 0px;
+  justify-content: center;
+}
+.container{
+  width: 600px;
+  height: 500px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 100px;
+}
+.inputContent{
+  display: flex;
+  gap:8em;
+  margin-left: 50px;
+  width:400px;
+  height: 35px;
+  margin-left: 38px;
+  margin-top: 50px;
+  font-size: 12px;
+  color:black;
+}
+.line{
+  width: 440px;
+  color:lightgray;
+
+}
+.dateInput{
+  margin-left: 50px;
+}
+.cal-button{
+  width: 80px;
+
+}
+.horizontal-row-and-button{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 440px;
+  height:75px;
+  display: flex;
+  align-items: center;
+}
+.textContent{
+  color:black;
+  margin: 0px;
+  font-size: 70px;
+  line-height: 50px;
+  font-weight: 800i;
+}
+.display{
+  display: grid;
+  grid-template-columns: 150px 300px ;
+}
+
+.years,.months,.days{
+  color:hsl(259, 100%, 65%);
+  margin: 0px;
+  padding: 35px;
+  padding-left: 50px;
+  font-size: 70px;
+  line-height: 0px;
+  font-weight: 800i;
+}
+button{
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+}
+
+input{
+  width: 75px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0px 15px;
+  margin-left: 30px;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  border-bottom: 5px solid hsl(259, 100%, 65%) ;
+  background-color:white;
+}
+
